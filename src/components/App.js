@@ -13,6 +13,12 @@ const App = () => {
         <br />
         <h3>Items you can buy are in Green color</h3>
         <table style={{width: "300px"}}>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+            </tr>
+          </thead>
           <tbody>
             {items.map((item, ind) => {
               return (
