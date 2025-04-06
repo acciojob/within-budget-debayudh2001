@@ -1,1 +1,11 @@
+.green{
+    color: green;
+}
 
+.red{
+    color: red;
+}
+
+table, td{
+    border: 1px solid black;
+}
